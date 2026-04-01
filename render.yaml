@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: claim-helper
+    runtime: docker
+    plan: starter
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    autoDeploy: false
+    envVars:
+      - key: APP_BUILD
+        value: render-prod
