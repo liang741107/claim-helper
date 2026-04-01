@@ -2,6 +2,8 @@
 
 Claim Helper is a web app that reads claim forms, diagnosis certificates, and bank-book images, then produces a filled claim PDF for multiple Taiwan insurers.
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/liang741107/claim-helper)
+
 ## Highlights
 
 - Mobile-friendly upload flow
