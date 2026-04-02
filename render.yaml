@@ -2,7 +2,7 @@ services:
   - type: web
     name: claim-helper
     runtime: docker
-    plan: starter
+    plan: free
     region: singapore
     dockerfilePath: ./Dockerfile
     healthCheckPath: /

@@ -31,6 +31,8 @@ This folder already includes:
 
 After deployment, Render assigns a stable `onrender.com` subdomain to the service.
 
+This repo is configured for the free web-service plan so you can start without buying a domain first.
+
 ## If you want your own domain
 
 After the first deploy succeeds, add a custom domain in Render and point your DNS to it.
