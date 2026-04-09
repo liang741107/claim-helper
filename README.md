@@ -14,6 +14,9 @@ Claim Helper is a web app that reads claim forms, diagnosis certificates, and ba
 
 ## Deploy
 
-This repository is prepared for Render Docker deployment.
+This repository is prepared for both Google Cloud Run and Render.
 
-See [DEPLOY_RENDER.md](DEPLOY_RENDER.md) for the quickest path.
+For Taiwan, prefer Google Cloud Run in region `asia-east1`.
+
+- Cloud Run: [DEPLOY_CLOUD_RUN.md](DEPLOY_CLOUD_RUN.md)
+- Render: [DEPLOY_RENDER.md](DEPLOY_RENDER.md)
